@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>批量图片压缩工具（本地离线）</title>
+<title>810-图片压缩工具</title>
 <style>
 *{box-sizing:border-box;font-family:system-ui}
 body{max-width:1100px;margin:20px auto;padding:0 16px}
@@ -20,7 +20,7 @@ button:disabled{background:#b3d8ff;cursor:not-allowed}
 </style>
 </head>
 <body>
-<h2>📷 本地批量图片压缩（WebP优先，更省空间）</h2>
+<h2>810-图片压缩工具</h2>
 <div class="upload" id="drop">
   <p>点击或者拖放图片到这里批量上传</p>
   <input type="file" id="file" multiple accept="image/*">
@@ -38,7 +38,7 @@ button:disabled{background:#b3d8ff;cursor:not-allowed}
   <button id="downloadAll" disabled>打包全部下载ZIP</button>
   <button id="clearAll" class="btn-clear">清空全部</button>
 </div>
-<div class="info">提示：质量0.8~0.9肉眼基本看不出模糊；PNG是无损/弱压缩，很难压小；多次选图会追加图片不会清空旧图片</div>
+<div class="info">提示：质量0.8~0.9基本看不出模糊；PNG是无损/弱压缩，很难压小</div>
 <div class="grid" id="list"></div>
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
